@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1789808824.75684 "c:/Users/Professional/Here i live/Uni/LSAC/lab1/Paper/main.tex" "main.pdf" "main" 1789808826.97433 0
+["pdflatex"] 1789812365.21916 "c:/Users/Professional/Here i live/Uni/LSAC/lab1/Paper/main.tex" "main.pdf" "main" 1789812367.24184 0
   "C:/Users/Professional/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1788781823 92908 16384998ec02ad839fd04f9f18444eda ""
   "C:/Users/Professional/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk" 1775151901 14064 d64ade16c4441d899353b31ac0da5558 ""
   "C:/Users/Professional/AppData/Local/MiKTeX/fonts/pk/ljfour/lh/lh-t2a/dpi600/labx1200.pk" 1772102541 29472 d4f4063b1e50e6cf9e00169dbca8254c ""
@@ -130,7 +130,7 @@
   "C:/Users/Professional/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/Professional/AppData/Local/Programs/MiKTeX/tex/latex/varwidth/varwidth.sty" 1238469540 10894 d359a13923460b2a73d4312d613554c8 ""
   "C:/Users/Professional/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
-  "c:/Users/Professional/Here i live/Uni/LSAC/lab1/Paper/main.tex" 1789808812 25497 9ff676a94cb4c3c9c1a35361e98e4486 ""
+  "c:/Users/Professional/Here i live/Uni/LSAC/lab1/Paper/main.tex" 1789812364 25337 94fd51f7722dba5b39ac4cd6d7997354 ""
   "images/compare.jpg" 1789501865 54037 77d56faac0136288f2ec8ad6028da129 ""
   "images/conyt2.jpg" 1789493142 41726 f6dc148fa927ef733911d4deb18c5b60 ""
   "images/diagyt2.jpg" 1789501105 41966 e60918adda2d0ba56aa0fa09472e2373 ""
@@ -148,10 +148,10 @@
   "images/t4.jpg" 1789653646 68231 a12a0b13c5669b5bc14c219207936845 ""
   "images/ut1.jpg" 1789404356 37270 2db4469ee66363410a215d458182db2c ""
   "images/yt1.jpg" 1789473323 42039 f00e32f10c885eb2d9d8a7b3c91f2fa3 ""
-  "main.aux" 1789808826 7187 7b9623130a6b037c590f6e4fa18bc31c "pdflatex"
-  "main.out" 1789808826 2727 295b82e7219acf2efeb31c78cda2c403 "pdflatex"
-  "main.tex" 1789808812 25497 9ff676a94cb4c3c9c1a35361e98e4486 ""
-  "main.toc" 1789808826 1294 f70175ea1ef0073483722d3cc3dda4bc "pdflatex"
+  "main.aux" 1789812366 7187 7b9623130a6b037c590f6e4fa18bc31c "pdflatex"
+  "main.out" 1789812366 2727 295b82e7219acf2efeb31c78cda2c403 "pdflatex"
+  "main.tex" 1789812364 25337 94fd51f7722dba5b39ac4cd6d7997354 ""
+  "main.toc" 1789812366 1294 f70175ea1ef0073483722d3cc3dda4bc "pdflatex"
   "src/vpdtitle.sty" 1772696531 2895 3314287d3b6b931a856e9177525109f5 ""
   (generated)
   "main.aux"
