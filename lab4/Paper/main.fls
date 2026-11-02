@@ -247,6 +247,13 @@ INPUT .\main.toc
 INPUT main.toc
 INPUT C:\Users\Professional\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm1200.tfm
 OUTPUT main.toc
+INPUT .\images\schem.png
+INPUT .\images\schem.png
+INPUT .\images\schem.png
+INPUT .\images\schem.png
+INPUT .\images\schem.png
+INPUT .\images\schem.png
+INPUT .\images\schem.png
 INPUT .\images\h1.png
 INPUT .\images\h1.png
 INPUT .\images\h1.png
@@ -463,10 +470,10 @@ INPUT .\main.out
 INPUT .\main.out
 INPUT C:\Users\Professional\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\latt1000.pk
 INPUT C:\Users\Professional\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\latt1000.pk
-INPUT C:\Users\Professional\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm0600.pk
-INPUT C:\Users\Professional\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm0600.pk
 INPUT C:\Users\Professional\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
 INPUT C:\Users\Professional\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
+INPUT C:\Users\Professional\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm0600.pk
+INPUT C:\Users\Professional\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm0600.pk
 INPUT C:\Users\Professional\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\lati1095.pk
 INPUT C:\Users\Professional\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\lati1095.pk
 INPUT C:\Users\Professional\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm0800.pk

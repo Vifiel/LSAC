@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.2.26)  30 OCT 2026 22:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.2.26)  31 OCT 2026 12:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -787,6 +787,9 @@ LaTeX Warning: Label `fig:2' multiply defined.
 
 LaTeX Warning: Label `fig:2' multiply defined.
 
+
+LaTeX Warning: Label `fig:2' multiply defined.
+
 )
 \openout1 = `main.aux'.
 
@@ -915,177 +918,182 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has b
                    \relax 
 l.114 \newpage
                [1] [2]
-<images/h1.png, id=76, 210.7875pt x 149.1171pt>
+<images/schem.png, id=76, 222.5916pt x 92.7465pt>
+File: images/schem.png Graphic file (type png)
+<use images/schem.png>
+Package pdftex.def Info: images/schem.png  used on input line 162.
+(pdftex.def)             Requested size: 386.95897pt x 161.25307pt.
+<images/h1.png, id=77, 210.7875pt x 149.1171pt>
 File: images/h1.png Graphic file (type png)
 <use images/h1.png>
-Package pdftex.def Info: images/h1.png  used on input line 163.
+Package pdftex.def Info: images/h1.png  used on input line 169.
 (pdftex.def)             Requested size: 386.95897pt x 273.75307pt.
-<images/w1.png, id=77, 210.7875pt x 149.1171pt>
+<images/w1.png, id=78, 210.7875pt x 149.1171pt>
 File: images/w1.png Graphic file (type png)
 <use images/w1.png>
-Package pdftex.def Info: images/w1.png  used on input line 170.
+Package pdftex.def Info: images/w1.png  used on input line 176.
 (pdftex.def)             Requested size: 386.95897pt x 273.75307pt.
-<images/ACH1.png, id=78, 364.7226pt x 299.4387pt>
+ [3 <./images/schem.png (PNG copy)> <./images/h1.png (PNG copy)>]
+<images/ACH1.png, id=85, 364.7226pt x 299.4387pt>
 File: images/ACH1.png Graphic file (type png)
 <use images/ACH1.png>
-Package pdftex.def Info: images/ACH1.png  used on input line 177.
+Package pdftex.def Info: images/ACH1.png  used on input line 183.
 (pdftex.def)             Requested size: 386.95897pt x 317.69592pt.
- [3 <./images/h1.png (PNG copy)> <./images/w1.png (PNG copy)>]
-<images/FCH1.png, id=85, 365.4453pt x 299.4387pt>
+<images/FCH1.png, id=86, 365.4453pt x 299.4387pt>
 File: images/FCH1.png Graphic file (type png)
 <use images/FCH1.png>
-Package pdftex.def Info: images/FCH1.png  used on input line 184.
+Package pdftex.def Info: images/FCH1.png  used on input line 190.
 (pdftex.def)             Requested size: 386.95897pt x 317.06996pt.
-<images/LACH1.png, id=86, 367.6134pt x 302.3295pt>
+ [4 <./images/w1.png (PNG copy)> <./images/ACH1.png (PNG copy)>]
+<images/LACH1.png, id=93, 367.6134pt x 302.3295pt>
 File: images/LACH1.png Graphic file (type png)
 <use images/LACH1.png>
-Package pdftex.def Info: images/LACH1.png  used on input line 191.
+Package pdftex.def Info: images/LACH1.png  used on input line 197.
 (pdftex.def)             Requested size: 386.95897pt x 318.2534pt.
- [4 <./images/ACH1.png (PNG copy)> <./images/FCH1.png (PNG copy)>]
-<images/LFCH1.png, id=93, 367.6134pt x 302.3295pt>
+<images/LFCH1.png, id=94, 367.6134pt x 302.3295pt>
 File: images/LFCH1.png Graphic file (type png)
 <use images/LFCH1.png>
-Package pdftex.def Info: images/LFCH1.png  used on input line 198.
+Package pdftex.def Info: images/LFCH1.png  used on input line 204.
 (pdftex.def)             Requested size: 386.95897pt x 318.2534pt.
- [5 <./images/LACH1.png (PNG copy)> <./images/LFCH1.png (PNG copy)>]
+ [5 <./images/FCH1.png (PNG copy)> <./images/LACH1.png (PNG copy)>] [6 <./images/LFCH1.png (PNG copy)>]
 
-LaTeX Warning: Command \L invalid in math mode on input line 207.
+LaTeX Warning: Command \L invalid in math mode on input line 213.
 
 
-LaTeX Warning: Command \L invalid in math mode on input line 207.
+LaTeX Warning: Command \L invalid in math mode on input line 213.
 
-[6]
-<images/h2.png, id=105, 210.7875pt x 149.1171pt>
+[7]
+<images/h2.png, id=112, 210.7875pt x 149.1171pt>
 File: images/h2.png Graphic file (type png)
 <use images/h2.png>
-Package pdftex.def Info: images/h2.png  used on input line 285.
+Package pdftex.def Info: images/h2.png  used on input line 291.
 (pdftex.def)             Requested size: 386.95897pt x 273.75307pt.
-<images/w2.png, id=106, 210.7875pt x 149.1171pt>
+<images/w2.png, id=113, 210.7875pt x 149.1171pt>
 File: images/w2.png Graphic file (type png)
 <use images/w2.png>
-Package pdftex.def Info: images/w2.png  used on input line 292.
+Package pdftex.def Info: images/w2.png  used on input line 298.
 (pdftex.def)             Requested size: 386.95897pt x 273.75307pt.
- [7 <./images/h2.png (PNG copy)>]
-<images/ACH2.png, id=112, 364.7226pt x 304.0158pt>
+ [8 <./images/h2.png (PNG copy)>]
+<images/ACH2.png, id=119, 364.7226pt x 299.4387pt>
 File: images/ACH2.png Graphic file (type png)
 <use images/ACH2.png>
-Package pdftex.def Info: images/ACH2.png  used on input line 299.
-(pdftex.def)             Requested size: 386.95897pt x 322.5521pt.
-<images/FCH2.png, id=113, 370.986pt x 299.4387pt>
+Package pdftex.def Info: images/ACH2.png  used on input line 305.
+(pdftex.def)             Requested size: 386.95897pt x 317.69592pt.
+<images/FCH2.png, id=120, 370.986pt x 299.4387pt>
 File: images/FCH2.png Graphic file (type png)
 <use images/FCH2.png>
-Package pdftex.def Info: images/FCH2.png  used on input line 306.
+Package pdftex.def Info: images/FCH2.png  used on input line 312.
 (pdftex.def)             Requested size: 386.95897pt x 312.34097pt.
- [8 <./images/w2.png (PNG copy)> <./images/ACH2.png (PNG copy)>]
-<images/LACH2.png, id=120, 373.1541pt x 302.3295pt>
+ [9 <./images/w2.png (PNG copy)> <./images/ACH2.png (PNG copy)>]
+<images/LACH2.png, id=127, 373.1541pt x 302.3295pt>
 File: images/LACH2.png Graphic file (type png)
 <use images/LACH2.png>
-Package pdftex.def Info: images/LACH2.png  used on input line 313.
+Package pdftex.def Info: images/LACH2.png  used on input line 319.
 (pdftex.def)             Requested size: 386.95897pt x 313.53413pt.
-<images/LFCH2.png, id=121, 373.1541pt x 302.3295pt>
+<images/LFCH2.png, id=128, 373.1541pt x 302.3295pt>
 File: images/LFCH2.png Graphic file (type png)
 <use images/LFCH2.png>
-Package pdftex.def Info: images/LFCH2.png  used on input line 320.
+Package pdftex.def Info: images/LFCH2.png  used on input line 326.
 (pdftex.def)             Requested size: 386.95897pt x 313.53413pt.
- [9 <./images/FCH2.png (PNG copy)> <./images/LACH2.png (PNG copy)>] [10 <./images/LFCH2.png (PNG copy)>]
-<images/ACH3.png, id=133, 356.532pt x 301.125pt>
+ [10 <./images/FCH2.png (PNG copy)> <./images/LACH2.png (PNG copy)>] [11 <./images/LFCH2.png (PNG copy)>]
+<images/ACH3.png, id=140, 356.532pt x 301.125pt>
 File: images/ACH3.png Graphic file (type png)
 <use images/ACH3.png>
-Package pdftex.def Info: images/ACH3.png  used on input line 359.
+Package pdftex.def Info: images/ACH3.png  used on input line 365.
 (pdftex.def)             Requested size: 386.95897pt x 326.85048pt.
-<images/FCH3.png, id=134, 367.6134pt x 299.4387pt>
+<images/FCH3.png, id=141, 367.6134pt x 299.4387pt>
 File: images/FCH3.png Graphic file (type png)
 <use images/FCH3.png>
-Package pdftex.def Info: images/FCH3.png  used on input line 366.
+Package pdftex.def Info: images/FCH3.png  used on input line 372.
 (pdftex.def)             Requested size: 386.95897pt x 315.21034pt.
- [11 <./images/ACH3.png (PNG copy)>]
-<images/LACH3.png, id=140, 373.1541pt x 302.3295pt>
+ [12 <./images/ACH3.png (PNG copy)>]
+<images/LACH3.png, id=148, 373.1541pt x 302.3295pt>
 File: images/LACH3.png Graphic file (type png)
 <use images/LACH3.png>
-Package pdftex.def Info: images/LACH3.png  used on input line 373.
+Package pdftex.def Info: images/LACH3.png  used on input line 379.
 (pdftex.def)             Requested size: 386.95897pt x 313.53413pt.
-<images/LFCH3.png, id=141, 386.8854pt x 302.3295pt>
+<images/LFCH3.png, id=149, 386.8854pt x 302.3295pt>
 File: images/LFCH3.png Graphic file (type png)
 <use images/LFCH3.png>
-Package pdftex.def Info: images/LFCH3.png  used on input line 380.
+Package pdftex.def Info: images/LFCH3.png  used on input line 386.
 (pdftex.def)             Requested size: 386.95897pt x 302.39333pt.
- [12 <./images/FCH3.png (PNG copy)> <./images/LACH3.png (PNG copy)>] [13 <./images/LFCH3.png (PNG copy)>] [14]
-<images/w4.png, id=158, 210.7875pt x 149.1171pt>
+ [13 <./images/FCH3.png (PNG copy)> <./images/LACH3.png (PNG copy)>] [14 <./images/LFCH3.png (PNG copy)>] [15]
+<images/w4.png, id=165, 210.7875pt x 149.1171pt>
 File: images/w4.png Graphic file (type png)
 <use images/w4.png>
-Package pdftex.def Info: images/w4.png  used on input line 443.
+Package pdftex.def Info: images/w4.png  used on input line 449.
 (pdftex.def)             Requested size: 386.95897pt x 273.75307pt.
-<images/h4.png, id=159, 210.7875pt x 149.1171pt>
+<images/h4.png, id=166, 210.7875pt x 149.1171pt>
 File: images/h4.png Graphic file (type png)
 <use images/h4.png>
-Package pdftex.def Info: images/h4.png  used on input line 450.
+Package pdftex.def Info: images/h4.png  used on input line 456.
 (pdftex.def)             Requested size: 386.95897pt x 273.75307pt.
-<images/ACH4.png, id=160, 362.0727pt x 299.4387pt>
+<images/ACH4.png, id=167, 362.0727pt x 299.4387pt>
 File: images/ACH4.png Graphic file (type png)
 <use images/ACH4.png>
-Package pdftex.def Info: images/ACH4.png  used on input line 457.
+Package pdftex.def Info: images/ACH4.png  used on input line 463.
 (pdftex.def)             Requested size: 386.95897pt x 320.02614pt.
- [15 <./images/w4.png (PNG copy)> <./images/h4.png (PNG copy)>]
-<images/FCH4.png, id=167, 370.986pt x 299.4387pt>
+ [16 <./images/w4.png (PNG copy)> <./images/h4.png (PNG copy)>]
+<images/FCH4.png, id=174, 370.986pt x 299.4387pt>
 File: images/FCH4.png Graphic file (type png)
 <use images/FCH4.png>
-Package pdftex.def Info: images/FCH4.png  used on input line 464.
+Package pdftex.def Info: images/FCH4.png  used on input line 470.
 (pdftex.def)             Requested size: 386.95897pt x 312.34097pt.
-<images/LACH4.png, id=168, 373.1541pt x 302.3295pt>
+<images/LACH4.png, id=175, 373.1541pt x 302.3295pt>
 File: images/LACH4.png Graphic file (type png)
 <use images/LACH4.png>
-Package pdftex.def Info: images/LACH4.png  used on input line 471.
+Package pdftex.def Info: images/LACH4.png  used on input line 477.
 (pdftex.def)             Requested size: 386.95897pt x 313.53413pt.
- [16 <./images/ACH4.png (PNG copy)> <./images/FCH4.png (PNG copy)>]
-<images/LFCH4.png, id=175, 373.1541pt x 302.3295pt>
+ [17 <./images/ACH4.png (PNG copy)> <./images/FCH4.png (PNG copy)>]
+<images/LFCH4.png, id=182, 373.1541pt x 302.3295pt>
 File: images/LFCH4.png Graphic file (type png)
 <use images/LFCH4.png>
-Package pdftex.def Info: images/LFCH4.png  used on input line 478.
+Package pdftex.def Info: images/LFCH4.png  used on input line 484.
 (pdftex.def)             Requested size: 386.95897pt x 313.53413pt.
- [17 <./images/LACH4.png (PNG copy)> <./images/LFCH4.png (PNG copy)>]
-<images/schem2.png, id=182, 146.949pt x 63.1158pt>
+ [18 <./images/LACH4.png (PNG copy)> <./images/LFCH4.png (PNG copy)>]
+<images/schem2.png, id=190, 146.949pt x 63.1158pt>
 File: images/schem2.png Graphic file (type png)
 <use images/schem2.png>
-Package pdftex.def Info: images/schem2.png  used on input line 487.
+Package pdftex.def Info: images/schem2.png  used on input line 493.
 (pdftex.def)             Requested size: 386.95897pt x 166.21399pt.
- [18 <./images/schem2.png (PNG copy)>]
-<images/h5.png, id=197, 210.7875pt x 149.1171pt>
+ [19 <./images/schem2.png (PNG copy)>]
+<images/h5.png, id=204, 210.7875pt x 149.1171pt>
 File: images/h5.png Graphic file (type png)
 <use images/h5.png>
-Package pdftex.def Info: images/h5.png  used on input line 566.
+Package pdftex.def Info: images/h5.png  used on input line 572.
 (pdftex.def)             Requested size: 386.95897pt x 273.75307pt.
-<images/w5.png, id=198, 210.7875pt x 149.1171pt>
+<images/w5.png, id=205, 210.7875pt x 149.1171pt>
 File: images/w5.png Graphic file (type png)
 <use images/w5.png>
-Package pdftex.def Info: images/w5.png  used on input line 573.
+Package pdftex.def Info: images/w5.png  used on input line 579.
 (pdftex.def)             Requested size: 386.95897pt x 273.75307pt.
- [19 <./images/h5.png (PNG copy)>]
-<images/ACH5.png, id=204, 362.0727pt x 299.4387pt>
+ [20 <./images/h5.png (PNG copy)>]
+<images/ACH5.png, id=211, 362.0727pt x 299.4387pt>
 File: images/ACH5.png Graphic file (type png)
 <use images/ACH5.png>
-Package pdftex.def Info: images/ACH5.png  used on input line 580.
+Package pdftex.def Info: images/ACH5.png  used on input line 586.
 (pdftex.def)             Requested size: 386.95897pt x 320.02614pt.
-<images/FCH5.png, id=205, 365.4453pt x 299.4387pt>
+<images/FCH5.png, id=212, 365.4453pt x 299.4387pt>
 File: images/FCH5.png Graphic file (type png)
 <use images/FCH5.png>
-Package pdftex.def Info: images/FCH5.png  used on input line 587.
+Package pdftex.def Info: images/FCH5.png  used on input line 593.
 (pdftex.def)             Requested size: 386.95897pt x 317.06996pt.
- [20 <./images/w5.png (PNG copy)> <./images/ACH5.png (PNG copy)>]
-<images/LACH5.png, id=212, 364.2408pt x 302.3295pt>
+ [21 <./images/w5.png (PNG copy)> <./images/ACH5.png (PNG copy)>]
+<images/LACH5.png, id=219, 364.2408pt x 302.3295pt>
 File: images/LACH5.png Graphic file (type png)
 <use images/LACH5.png>
-Package pdftex.def Info: images/LACH5.png  used on input line 594.
+Package pdftex.def Info: images/LACH5.png  used on input line 600.
 (pdftex.def)             Requested size: 386.95897pt x 321.20122pt.
-<images/LFCH5.png, id=213, 367.6134pt x 302.3295pt>
+<images/LFCH5.png, id=220, 367.6134pt x 302.3295pt>
 File: images/LFCH5.png Graphic file (type png)
 <use images/LFCH5.png>
-Package pdftex.def Info: images/LFCH5.png  used on input line 601.
+Package pdftex.def Info: images/LFCH5.png  used on input line 607.
 (pdftex.def)             Requested size: 386.95897pt x 318.2534pt.
- [21 <./images/FCH5.png (PNG copy)> <./images/LACH5.png (PNG copy)>] [22 <./images/LFCH5.png (PNG copy)>] [23]
-LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 620.
+ [22 <./images/FCH5.png (PNG copy)> <./images/LACH5.png (PNG copy)>] [23 <./images/LFCH5.png (PNG copy)>] [24]
+LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 626.
  (C:\Users\Professional\AppData\Local\Programs\MiKTeX\tex/latex/cyrillic\t2acmtt.fd
 File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
-) [24] [25] (main.aux)
+) [25] [26] (main.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
@@ -1098,17 +1106,17 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 62B825EB565246A73C451A603A4D8A83;1706.
  ) 
 Here is how much of TeX's memory you used:
- 17618 strings out of 467866
- 280886 string characters out of 5414925
+ 17627 strings out of 467866
+ 281070 string characters out of 5414925
  1060005 words of memory out of 5000000
- 46117 multiletter control sequences out of 15000+600000
+ 46124 multiletter control sequences out of 15000+600000
  643905 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,8n,84p,818b,1224s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\Professional\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\latt1000.pk> <C:\Users\Professional\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm0600.pk> <C:\Users\Professional\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\Professional\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\lati1095.pk> <C:\Users\Professional\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm0800.pk> <C:\Users\Professional\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1200.pk> <C:\Users\Professional\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1728.pk> <C:\Users\Professional\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1200.pk><C:/Users/Professional/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Professional/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Professional/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Professional/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Professional/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Professional/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Professional/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Professional/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (26 pages, 2296626 bytes).
+ <C:\Users\Professional\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\latt1000.pk> <C:\Users\Professional\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\Professional\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm0600.pk> <C:\Users\Professional\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\lati1095.pk> <C:\Users\Professional\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm0800.pk> <C:\Users\Professional\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1200.pk> <C:\Users\Professional\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1728.pk> <C:\Users\Professional\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1200.pk><C:/Users/Professional/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Professional/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Professional/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Professional/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Professional/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Professional/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Professional/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Professional/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on main.pdf (27 pages, 2299120 bytes).
 PDF statistics:
- 694 PDF objects out of 1000 (max. 8388607)
- 142 named destinations out of 1000 (max. 500000)
- 207 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 701 PDF objects out of 1000 (max. 8388607)
+ 144 named destinations out of 1000 (max. 500000)
+ 212 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -135,10 +135,10 @@ W(s) = \frac{K}{Ts+1}, \qquad K = \frac{1}{k_e}, \qquad T = \frac{JR}{k_mk_e}
 
 Вычислим весовую и переходную функцию
 \[
-w(t) = \mathcal{L} \{\frac{K}{Ts+1}\} = \frac{K}{T}e^{-\frac{t}{T}}
+w(t) = \mathcal{L}^{-1} \{\frac{K}{Ts+1}\} = \frac{K}{T}e^{-\frac{t}{T}}
 \]
 \[
-h(t) = \mathcal{L}\{\frac{K}{Ts^2 +s}\} = K(1 - e^{-\frac{t}{T}})
+h(t) = \mathcal{L}^{-1}\{\frac{K}{Ts^2 +s}\} = K(1 - e^{-\frac{t}{T}})
 \]
 Выведем АЧХ, ФЧХ, и логарифмические частотные характеристики
 \[
@@ -157,6 +157,12 @@ k_m = 0.3222, \qquad k_e = 0.3222, \qquad J = 0.0028, \qquad R = 4.6013
 
 И проведём моделирование данной системы
 \newpage
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/schem.png}
+    \caption{Схема моделирования в Simulink}
+    \label{fig:2}
+\end{figure}
 
 \begin{figure}[H]
     \centering
@@ -214,7 +220,7 @@ J\dot{\omega} = M, \quad M = k_mI, \quad I = \frac{U + \epsilon}{R}, \quad \epsi
 \]
 
 \[
-T_m = \frac{JR}{k_m k_e}, \qquad T_e = \frac{L}{R}, \qquad = K
+T_m = \frac{JR}{k_m k_e}, \qquad T_e = \frac{L}{R}, \qquad \frac{1}{k_e}= K
 \]
 \[
 T_m T_e\ddot{\omega} + T_m \dot{\omega} + 1 = K U
@@ -242,18 +248,18 @@ T_m = 0,1241 \qquad T_e = 0,2460 \qquad \xi = 0,3551
 s_{1,2} = \frac{-2\xi T \pm \sqrt{4\xi^2T^2 - 4T^2}}{2T^2} = \frac{-\xi \pm \sqrt{\xi^2 - 1}}{T}
 \]
 \[
-\sigma_{\xi} = \frac{\xi}{T} \qquad \omega_{\text{д}} = \frac{\sqrt{1 - \xi^2}}{T} \qquad s_{1,2} = \sigma_{\xi} \pm i\omega_{\text{д}}
+\sigma_{\text{д}} = \frac{\xi}{T} \qquad \omega_{\text{д}} = \frac{\sqrt{1 - \xi^2}}{T} \qquad s_{1,2} = \sigma_{\text{д}} \pm i\omega_{\text{д}}
 \]
 
 \[
-W(s) = \frac{K}{T^2(s+\sigma_{\xi} - i\omega_{\text{д}})(s+\sigma_{\xi} + i\omega_{\text{д}})} = \frac{K}{T^2}\frac{1}{(s+\sigma_{\xi})^2 + \omega_{\text{д}}^2}
+W(s) = \frac{K}{T^2(s+\sigma_{\text{д}} - i\omega_{\text{д}})(s+\sigma_{\text{д}} + i\omega_{\text{д}})} = \frac{K}{T^2}\frac{1}{(s+\sigma_{\text{д}})^2 + \omega_{\text{д}}^2}
 \]
 Применим преобразование Лапласа
 \[
-\omega (t) = \frac{Ke^{-\sigma_{\xi}t}}{T\sqrt{1-\xi^2}}sin(\omega_{\text{д}}t)
+\omega (t) = \frac{Ke^{-\sigma_{\text{д}}t}}{T\sqrt{1-\xi^2}}sin(\omega_{\text{д}}t)
 \]
 \[
-h(t) = K\left(1 - \frac{Ke^{-\sigma_{\xi}t}}{T\sqrt{1-\xi^2}}sin(\omega_{\text{д}}t + arccos(\xi))\right)
+h(t) = K\left(1 - \frac{e^{-\sigma_{\text{д}}t}}{\sqrt{1-\xi^2}}sin(\omega_{\text{д}}t + arccos(\xi))\right)
 \]
 Получим частотные характеристики. Подставим $s = i\omega$:
 \[
@@ -409,10 +415,10 @@ K = \frac{1}{k}, \qquad T = \sqrt{\frac{M}{k}}, \qquad W(s) = \frac{K}{T^2s^2 + 
 
 Тогда весовая и переходная функции
 \[
-\omega(t) = K\left(1 - cos(\frac{t}{T})\right)
+\omega(t) = \frac{K}{T} sin(\frac{t}{T})
 \]
 \[
-h(t) = \frac{K}{T} sin(\frac{t}{T})
+h(t) = K\left(1 - cos(\frac{t}{T})\right)
 \]
 Получим частотные характеристики. Подставим $s = i\omega$:
 \[
@@ -534,10 +540,10 @@ k = 140, \qquad M = 27
 \end{equation}
 Тогда выражения для переходной и весовой характеристик
 \[
-\omega (t) = K(1 + \frac{t}{T})
+\omega (t) = K\delta (t) + \frac{K}{T}
 \]
 \[
-h(t) = K\delta (t) + \frac{K}{T}
+h(t) = K(1 + \frac{t}{T})
 \]
 Получим частотные характеристики. Подставим $s = i\omega$:
 \[

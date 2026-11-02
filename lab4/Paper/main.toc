@@ -1,9 +1,9 @@
 \babel@toc {russian}{}\relax 
 \contentsline {section}{\numberline {1}Двигатель постоянного тока}{2}{section.1}%
-\contentsline {section}{\numberline {2}Двигатель постоянного тока с учетом индуктивности}{6}{section.2}%
-\contentsline {section}{\numberline {3}Конденсатор}{11}{section.3}%
-\contentsline {section}{\numberline {4}Пружина}{14}{section.4}%
-\contentsline {section}{\numberline {5}Операционный усилитель}{18}{section.5}%
-\contentsline {section}{\numberline {6}Выводы}{23}{section.6}%
-\contentsline {section}{\numberline {7}Код, для сравнения аналитических и симуляционных данных}{24}{section.7}%
+\contentsline {section}{\numberline {2}Двигатель постоянного тока с учетом индуктивности}{7}{section.2}%
+\contentsline {section}{\numberline {3}Конденсатор}{12}{section.3}%
+\contentsline {section}{\numberline {4}Пружина}{15}{section.4}%
+\contentsline {section}{\numberline {5}Операционный усилитель}{19}{section.5}%
+\contentsline {section}{\numberline {6}Выводы}{24}{section.6}%
+\contentsline {section}{\numberline {7}Код, для сравнения аналитических и симуляционных данных}{25}{section.7}%
 \contentsfinish 

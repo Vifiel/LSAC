@@ -2,20 +2,24 @@ dir = 'C:\Users\Professional\Here i live\Uni\LSAC\lab4\Paper\images';
 ke = 0.3222; km = 0.3222;
 J = 0.0028; R = 4.6013; L = 1.1319;
 %K  = 379e-6;
-k = 140;
-M = 27;
+%k = 140;
+%M = 27;
 Tm = (J*R)/(km*ke);
 Te = L/R;
-R1 = 2253;
-R2 = 12964;
-C = 379e-6;
-T = C*R2;
-K = R2/R1;
+K = 1/ke;
+%R1 = 2253;
+%R2 = 12964;
+%C = 379e-6;
+%T = C*R2;
+%K = R2/R1;
 %K = 1/k;
 %T = sqrt(M/k);
-%T  = sqrt(Tm*Te);
+T  = sqrt(Tm*Te);
 xi = T/(2*Te);
 sig_xi  = xi/T;
+
+
+
 omega_d = sqrt(1 - xi^2)/T;
 mdl = 'model';
 load_system(mdl);
@@ -29,8 +33,10 @@ w = 2*pi*f;
 mag_s = squeeze(mag_s);
 ph_s  = squeeze(ph_s);
 
-mag_a = K*sqrt(1 + 1./(T*w).^2);
-ph_a  = (atan(T*w) - pi/2)*180/pi;)
+
+
+mag_a = K./(sqrt((1- T^2*w.^2).^2 + 4*xi^2*T^2*w.^2));
+ph_a  = (atan(T*w) - pi/2)*180/pi;
 L_a   = 20*log10(K) + 10*log10(1 + (T*w).^2) - 20*log10(T*w);
 
 wrap = @(p) mod(p + 180, 360) - 180;
@@ -43,28 +49,28 @@ idx = 1:20:numel(w);
 fig = figure('Name','АЧХ');
 plot(w, mag_a, '-', 'LineWidth', 2.2); hold on
 plot(w, mag_s, '--', 'LineWidth', 2.2);
-grid on; xlim([0 20]); ylim([0 20])
+grid on; xlim([0 20])
 xlabel('\omega'); ylabel('A(\omega)')
 title('АЧХ'); legend('аналитика','Simulink')
-exportgraphics(fig, fullfile(dir, 'ACH5.png'), 'Resolution', 300);
+exportgraphics(fig, fullfile(dir, 'ACH2.png'), 'Resolution', 300);
 fig = figure('Name','ФЧХ');
 plot(w, ph_a, '-', 'LineWidth', 2.2);hold on
 plot(w, ph_s, '--', 'LineWidth', 2.2);
 grid on; xlim([0 20])
 xlabel('\omega'); ylabel( '\phi(\omega)');
 title('ФЧХ'); legend('аналитика','Simulink')
-exportgraphics(fig, fullfile(dir, 'FCH5.png'), 'Resolution', 300);
+%exportgraphics(fig, fullfile(dir, 'FCH5.png'), 'Resolution', 300);
 fig = figure('Name','ЛАЧХ');
 semilogx(w, L_a, '-', 'LineWidth', 2.2); hold on
 semilogx(w, L_s, '--', 'LineWidth', 2.2);
 grid on;
 xlabel('\omega'); ylabel('L(\omega), дБ')
 title('ЛАЧХ'); legend('аналитика','Simulink')
-exportgraphics(fig, fullfile(dir, 'LACH5.png'), 'Resolution', 300);
+%exportgraphics(fig, fullfile(dir, 'LACH5.png'), 'Resolution', 300);
 fig = figure('Name','ЛФЧХ');
 semilogx(w, ph_a, '-', 'LineWidth', 2.2); hold on
 semilogx(w, ph_s, '--', 'LineWidth', 2.2);
 grid on;
 xlabel('\omega'); ylabel('\phi(\omega)')
 title('ЛФЧХ'); legend('аналитика','Simulink')
-exportgraphics(fig, fullfile(dir, 'LFCH5.png'), 'Resolution', 300);
+%exportgraphics(fig, fullfile(dir, 'LFCH5.png'), 'Resolution', 300);
